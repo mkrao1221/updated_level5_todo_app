@@ -7,7 +7,7 @@ body {
 .TodoPage-title {
   font-size: 20px;
   line-height: 1.6;
-  color: #453c52;
+  color: blue;
   font-weight: 600;
   margin-bottom: 12px;
 }
@@ -20,7 +20,7 @@ body {
 .AddTodo {
   display: flex;
   height: 24px;
-  align-items: stretch;
+  align-items: center;
   margin-bottom: 24px;
 }
 
@@ -28,8 +28,8 @@ body {
   padding: 6px 12px;
   font-size: 14px;
   color: #453c52;
-  margin-right: 10px;
-  border-radius: 4px;
+  margin-right: 5px;
+  border-radius: 2px;
   border: 1px solid #bfb8cc;
 }
 
@@ -90,7 +90,7 @@ body {
 .TodoItem-overdueLabel {
   font-size: 12px;
   margin-left: 10px;
-  color: #c53030;
+  color: gray;
   display: inline;
 }
 
